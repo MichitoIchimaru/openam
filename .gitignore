@@ -1,1 +1,2 @@
-openam/cert/*
+openam/cert/server.crt
+openam/cert/server.key
