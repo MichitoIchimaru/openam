@@ -1,0 +1,11 @@
+services:
+  idp:
+    container_name: idp
+    build: openam
+    hostname: "idp.example.com"
+    ports:
+      - "8080:8080"
+      - "8443:8443"
+    volumes:
+      - './openam/config:/usr/openam/config'
+
